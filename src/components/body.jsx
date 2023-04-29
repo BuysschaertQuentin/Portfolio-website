@@ -5,11 +5,11 @@ export default function Body() {
             <div className="primary col-md-8 col-sm-12 col-xs-12">
                 <section className="about section">
                     <div className="section-inner">
-                        <h2 className="heading">About Me</h2>
+                        <h2 className="heading">Qui suis-je ?</h2>
                         <div className="content">
                             <p>Write a brief intro about yourself. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>    
          
-        <p>It's a good idea to include your personal interests and hobbies as well. Commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <p>It&#39;s a good idea to include your personal interests and hobbies as well. Commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                          
                         </div>
                     </div>                
@@ -17,15 +17,15 @@ export default function Body() {
     
                <section className="latest section">
                     <div className="section-inner">
-                        <h2 className="heading">Latest Projects</h2>
+                        <h2 className="heading">Projets</h2>
                         <div className="content">    
                                                
                             <div className="item featured text-center">
-                                <h3 className="title"><a href="" target="_blank">KickStarter - Potato Salad App</a></h3>
-                                <p className="summary">A mobile app to help you make delicious potato salad</p>
-                                <div className="featured-image">
-                                    <a href="" target="_blank">
-                                    <img className="img-responsive project-image" src="./src/assets/images/projects/project-featured.png" alt="project name" />
+                                <h3 className="title"><a href="" target="_blank">Liberty Frip&#39;</a></h3>
+                                <p className="summary">Une interface de gestion de caisse adaptée </p>
+                                <div className="featured-image"> 
+                                    <a href="https://buysschaertquentin.github.io/Liberty-Frip-/" target="_blank" rel="noreferrer">
+                                    <img className="img-responsive project-image" src="./src/assets/images/libertyFrip.png" alt="project name" />
                                     </a>
                                     <div className="ribbon">
                                         <div className="text">App</div>
@@ -33,8 +33,8 @@ export default function Body() {
                                     </div>
                                     
                                 <div className="desc text-left">                                    
-                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                                    <p>J&#39;ai été contacter par un membre de APF France Handicap afin de concevoir un site web leur facilitant la gestion de la caisse de l&#39;évènement Liberty Frip&#39;. </p>
+                                    <p>Elle a été conçu sur une durée de 2 jours bénévolement</p>
                                 </div>      
                                 <a className="btn btn-cta-secondary" href="" target="_blank"><i className="fa fa-thumbs-o-up"></i> Back my project</a>                 
                             </div>
@@ -126,7 +126,7 @@ export default function Body() {
                 <section className="github section">
                     <div className="section-inner">
                         <h2 className="heading">My GitHub</h2>
-                        <p>You can embed your GitHub activities using Casey Scarborough's <a href="" target="_blank">GitHub Activity Stream</a> widget. You can also take a screenshot of your GitHub chart and put it here for fun.</p>
+                        <p>You can embed your GitHub activities using Casey Scarborough&#39;s <a href="" target="_blank">GitHub Activity Stream</a> widget. You can also take a screenshot of your GitHub chart and put it here for fun.</p>
                         <p><a href="#"><img className="img-responsive" src="./src/assets/images/github-chart.png" alt="GitHub Contributions Chart" /></a></p>               
                          http://caseyscarborough.com/projects/github-activity/                    
                         <div id="ghfeed" className="ghfeed">
@@ -141,9 +141,9 @@ export default function Body() {
                         <h2 className="heading sr-only">Basic Information</h2>
                         <div className="content">
                             <ul className="list-unstyled">
-                                <li><i className="fa fa-map-marker"></i><span className="sr-only">Location:</span>San Francisco, US</li>
-                                <li><i className="fa fa-envelope-o"></i><span className="sr-only">Email:</span><a href="#">jameslee@website.com</a></li>
-                                <li><i className="fa fa-link"></i><span className="sr-only">Website:</span><a href="#">http://www.website.com</a></li>
+                                <li><i className="fa fa-map-marker"></i><span className="sr-only"></span> Ronchin, France</li>
+                                <li><i className="fa fa-envelope-o"></i><span className="sr-only"></span><a href="#">quentin.buysschaert@gmail.com</a></li>
+                                <li><i className="fa fa-phone"></i><span className="sr-only"></span><a href="#">06.18.51.63.56</a></li>
                             </ul>
                         </div>  
                     </div>               
@@ -250,7 +250,7 @@ export default function Body() {
                 <aside className="blog aside section">
                     <div className="section-inner">
                         <h2 className="heading">Latest Blog Posts</h2>
-                        <p>You can use Sascha Depold's <a href="" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
+                        <p>You can use Sascha Depold&#39;s <a href="" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
                         <div id="rss-feeds" className="content">
 
                         </div>
@@ -283,32 +283,7 @@ export default function Body() {
                     </div>
                 </aside>
                 
-                <aside className="credits aside section">
-                    <div className="section-inner">
-                        <h2 className="heading">Credits</h2>
-                        <div className="content">
-                            <ul className="list-unstyled">
-                                <li><a href="" target="_blank"><i className="fa fa-external-link"></i> Bootstrap 3.2</a></li>
-                                <li><a href="" target="_blank"><i className="fa fa-external-link"></i> FontAwsome 4.1</a></li>
-                                <li><a href="" target="_blank"><i className="fa fa-external-link"></i> jQuery</a></li>
-                                <li><a href="" target="_blank"><i className="fa fa-external-link"></i> GitHub Activity Stream</a></li>
-                                
-                                <li><a href="" target="_blank"><i className="fa fa-external-link"></i> jQuery RSS</a></li>
-                                
-                                <li>Profile image: <a href="" target="_blank">Ben Smith</a></li>
-                                <li>iPad and iPhone mocks: <a href="" target="_blank">Regy Perlera</a></li>
-                                
-                            </ul>
-                            
-                            <hr/>
-                            
-                             <p>This responsive HTML5 CSS3 site template is handcrafted by UX designer <a href="" target="_blank">Xiaoying Riley</a> at <a href="" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a className="dotted-link" href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a></p>
-                             <p>We will improve or add new features to this template based on users' feedback so follow us on twitter to get notified when a new version is out!</p>
-                            <a className="btn btn-cta-secondary btn-follow" href="" target="_blank"><i className="fa fa-twitter"></i> Follow us</a>
-                            <a className="btn btn-cta-primary btn-download" href="" target="_blank"><i className="fa fa-download"></i> I want to download</a>
-                        </div>
-                    </div>
-                </aside>
+                
               
             </div> 
         </div>
