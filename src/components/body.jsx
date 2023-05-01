@@ -52,11 +52,13 @@ export default function Body() {
                     <p>
                       J&#39;ai été contacté par le chargé de développement des actions associatives (CD2A) de
                       l&#39;association APF France Handicap 59/62 afin de concevoir un site web leur facilitant la
-                      gestion de la caisse de l&#39;événement Liberty Frip&#39;. Cette application sera utilisée par une
-                      personne en situation de handicap qui tiendra la caisse le jour de l&#39;événement. J&#39;ai tenu
-                      compte des demandes du CD2A et j&#39;ai réalisé ce projet sur 2 jours.{' '}
+                      gestion de la caisse de l&#39;événement Liberty Frip&#39;.
+                      <p>
+                        Cette application sera utilisée par une personne en situation de handicap qui tiendra la caisse
+                        le jour de l&#39;événement. J&#39;ai tenu compte des demandes du CD2A et j&#39;ai réalisé ce
+                        projet sur 2 jours.{' '}
+                      </p>
                     </p>
-                    <p>Elle a été conçu sur une durée de 2 jours bénévolement</p>
                   </div>
                   <a className='btn btn-cta-secondary' href='' target='_blank'>
                     <i className='fa fa-thumbs-o-up'></i> Back my project
@@ -65,27 +67,17 @@ export default function Body() {
                 <hr className='divider' />
                 <div className='item row'>
                   <a className='col-md-4 col-sm-4 col-xs-12' href='' target='_blank'>
-                    <img
-                      className='img-responsive project-image'
-                      src='./src/assets/images/projects/project-4.png'
-                      alt='project name'
-                    />
+                    <img className='img-responsive project-image' src='./src/assets/images/html_css_js.jpg' />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>
                       <a href='' target='_blank'>
-                        Velocity - Designed for Products
+                        HTML - CSS - Javascript
                       </a>
                     </h3>
                     <p>
-                      You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu
-                      turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris
-                      dui tincidunt enim, eget iaculis ante dolor non turpis.
-                    </p>
-                    <p>
-                      <a className='more-link' href='' target='_blank'>
-                        <i className='fa fa-external-link'></i> Find out more
-                      </a>
+                      La base de la base ! J'ai passé une grande partie de ma formation à les apprendres. Je sais
+                      construire une page HTML de A à Z, la stylisé avec du CSS et la dynamisez avec du Javascript.
                     </p>
                   </div>
                 </div>
@@ -94,26 +86,17 @@ export default function Body() {
                   <a className='col-md-4 col-sm-4 col-xs-12' href='' target='_blank'>
                     <img
                       className='img-responsive project-image'
-                      src='./src/assets/images/projects/project-1.png'
+                      src='./src/assets/images/sequalize.png'
                       alt='project name'
                     />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>
                       <a href='' target='_blank'>
-                        Tempo - Designed for Startups
+                        Sequalize et la Programmation Orientée Objet
                       </a>
                     </h3>
-                    <p>
-                      You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu
-                      turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris
-                      dui tincidunt enim, eget iaculis ante dolor non turpis.
-                    </p>
-                    <p>
-                      <a className='more-link' href='' target='_blank'>
-                        <i className='fa fa-external-link'></i> Find out more
-                      </a>
-                    </p>
+                    <p>Sequalize est l'ORM que j'ai principalement utilisée...</p>
                   </div>
                 </div>
 
@@ -121,27 +104,21 @@ export default function Body() {
                   <a className='col-md-4 col-sm-4 col-xs-12' href='' target='_blank'>
                     <img
                       className='img-responsive project-image'
-                      src='./src/assets/images/projects/project-2.png'
+                      src='./src/assets/images/expressJs.png'
                       alt='project name'
                     />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>
                       <a href='' target='_blank'>
-                        Delta - Designed for Mobile Apps
+                        NodeJs, ExpressJs et EJS
                       </a>
                     </h3>
                     <p>
                       {' '}
-                      You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies
-                      nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
-                      tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed
-                      ipsum.
-                    </p>
-                    <p>
-                      <a className='more-link' href='' target='_blank'>
-                        <i className='fa fa-external-link'></i> Find out more
-                      </a>
+                      Au niveau back-end, j'ai principalement utilisée ces trois technologies. Je sais mettre en place
+                      un serveur selon l'architecture Model Views Controllers, ainsi que des routes complexes. Je sais
+                      mettre en place un système de log admin/utilisateurs ou encore mettre en place une API REST.
                     </p>
                   </div>
                 </div>
@@ -256,20 +233,14 @@ export default function Body() {
             <div className='section-inner'>
               <h2 className='heading'>My GitHub</h2>
               <p>
-                You can embed your GitHub activities using Casey Scarborough&#39;s{' '}
-                <a href='' target='_blank'>
-                  GitHub Activity Stream
-                </a>{' '}
-                widget. You can also take a screenshot of your GitHub chart and put it here for fun.
+                Graphique d&#39;activité de Janvier 2023 au premier Mai 2023 <a href='' target='_blank'></a>
               </p>
               <p>
-                <a href='#'>
-                  <img
-                    className='img-responsive'
-                    src='./src/assets/images/github_contributions.png'
-                    alt='GitHub Contributions Chart'
-                  />
-                </a>
+                <img
+                  className='img-responsive'
+                  src='./src/assets/images/github_contributions.png'
+                  alt='GitHub Contributions Chart'
+                />
               </p>
               <div id='ghfeed' className='ghfeed'></div>
             </div>
@@ -300,7 +271,7 @@ export default function Body() {
             </div>
           </aside>
 
-          <aside className='skills aside section'>
+          {/* <aside className='skills aside section'>
             <div className='section-inner'>
               <h2 className='heading'>Skills</h2>
               <div className='content'>
@@ -354,12 +325,65 @@ export default function Body() {
                       <div className='level-bar-inner' data-level='85%'></div>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </aside> */}
 
-                  <p>
-                    <a className='more-link' href='#'>
-                      <i className='fa fa-external-link'></i> More on Coderwall
-                    </a>
-                  </p>
+          <aside className='skills aside section'>
+            <div className='section-inner'>
+              <h2 className='heading'>Soft Skills</h2>
+              <div className='content'>
+                <p className='intro'>
+                  Cette section vous énonce les soft skills que j&#39;ai acquis lors de mes 8 années d&#39;expérience
+                  professionnelle.
+                </p>
+
+                <div className='skillset'>
+                  <div className='item'>
+                    <h3 className='level-title'>
+                      Travail d'équipe
+                      <span
+                        className='level-label'
+                        data-toggle='tooltip'
+                        data-placement='left'
+                        data-animation='true'
+                        title='You can use the tooltip to add more info...'
+                      >
+                        Expert
+                      </span>
+                    </h3>
+                    <div className='level-bar'>
+                      <div className='level-bar-inner' data-level='96%'></div>
+                    </div>
+                  </div>
+
+                  <div className='item'>
+                    <h3 className='level-title'>
+                      Javascript &amp; jQuery<span className='level-label'>Expert</span>
+                    </h3>
+                    <div className='level-bar'>
+                      <div className='level-bar-inner' data-level='96%'></div>
+                    </div>
+                  </div>
+
+                  <div className='item'>
+                    <h3 className='level-title'>
+                      HTML5, CSS3, SASS &amp; LESS<span className='level-label'>Expert</span>
+                    </h3>
+                    <div className='level-bar'>
+                      <div className='level-bar-inner' data-level='96%'></div>
+                    </div>
+                  </div>
+
+                  <div className='item'>
+                    <h3 className='level-title'>
+                      Ruby on Rails<span className='level-label'>Pro</span>
+                    </h3>
+                    <div className='level-bar'>
+                      <div className='level-bar-inner' data-level='85%'></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -444,7 +468,7 @@ export default function Body() {
             </div>
           </aside>
 
-          <aside className='blog aside section'>
+          {/* <aside className='blog aside section'>
             <div className='section-inner'>
               <h2 className='heading'>Latest Blog Posts</h2>
               <p>
@@ -456,9 +480,9 @@ export default function Body() {
               </p>
               <div id='rss-feeds' className='content'></div>
             </div>
-          </aside>
+          </aside> */}
 
-          <aside className='list music aside section'>
+          {/* <aside className='list music aside section'>
             <div className='section-inner'>
               <h2 className='heading'>Favourite coding music</h2>
               <div className='content'>
@@ -478,9 +502,9 @@ export default function Body() {
                 </ul>
               </div>
             </div>
-          </aside>
+          </aside> */}
 
-          <aside className='list conferences aside section'>
+          {/* <aside className='list conferences aside section'>
             <div className='section-inner'>
               <h2 className='heading'>Conferences</h2>
               <div className='content'>
@@ -498,7 +522,7 @@ export default function Body() {
                 </ul>
               </div>
             </div>
-          </aside>
+          </aside> */}
         </div>
       </div>
     </div>
