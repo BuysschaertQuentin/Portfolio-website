@@ -206,7 +206,13 @@ a.dotted-link:hover {
 }
 .latest .featured img {
   margin-bottom: 30px;
+  margin-left: 25%;
 }
+
+.img-responsive {
+  max-width: 80%;
+}
+
 .latest .featured .desc {
   margin-bottom: 30px;
 }

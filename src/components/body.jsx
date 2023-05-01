@@ -8,17 +8,25 @@ export default function Body() {
               <h2 className='heading'>Qui suis-je ?</h2>
               <div className='content'>
                 <p>
-                  Write a brief intro about yourself. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                  commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-                  nascetur ridiculus mus. Donec quam felis, ultricies nec.
+                  Je suis Buysschaert Quentin, ancien auxiliaire de vie ayant accompagné des personnes en situation de
+                  handicap moteur et/ou psychique dans leur vie quotidienne pendant 8 ans. J&#39;ai développé une
+                  passion pour le développement web et entrepris une formation à l&#39;école O&#39;clock pour acquérir
+                  des compétences pour débuter dans le développement de sites web.
+                  <br />
+                  Grâce à cette formation, j&#39;ai pu développer des compétences solides. Je suis actuellement en train
+                  d&#39;explorer de nouvelles technologies telles que ReactJS et bientôt Java pour améliorer mes
+                  compétences en développement.
+                  <br />
+                  Mon objectif est de continuer à élargir mes compétences pour pouvoir proposer des solutions de
+                  développement innovantes et de haute qualité. Je suis convaincu que mon expérience en tant
+                  qu&#39;auxiliaire de vie, combinée à mes compétences techniques en développement web, me permettront
+                  de créer des sites web accessibles, conviviaux et fonctionnels pour un large public.
                 </p>
-
+                <br />
                 <p>
-                  It&#39;s a good idea to include your personal interests and hobbies as well. Commodo ligula eget
-                  dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                  mus. Donec quam felis, ultricies nec.Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo.
+                  Je vous invite à parcourir mon portfolio pour découvrir mes différents projets et à me contacter pour
+                  toute question ou demande de collaboration. Je suis enthousiaste à l&#39;idée de travailler avec vous
+                  sur votre prochain projet de développement web.
                 </p>
               </div>
             </div>
@@ -60,9 +68,6 @@ export default function Body() {
                       </p>
                     </p>
                   </div>
-                  <a className='btn btn-cta-secondary' href='' target='_blank'>
-                    <i className='fa fa-thumbs-o-up'></i> Back my project
-                  </a>
                 </div>
                 <hr className='divider' />
                 <div className='item row'>
@@ -76,7 +81,7 @@ export default function Body() {
                       </a>
                     </h3>
                     <p>
-                      La base de la base ! J'ai passé une grande partie de ma formation à les apprendres. Je sais
+                      La base de la base ! J&#39;ai passé une grande partie de ma formation à les apprendres. Je sais
                       construire une page HTML de A à Z, la stylisé avec du CSS et la dynamisez avec du Javascript.
                     </p>
                   </div>
@@ -96,7 +101,7 @@ export default function Body() {
                         Sequalize et la Programmation Orientée Objet
                       </a>
                     </h3>
-                    <p>Sequalize est l'ORM que j'ai principalement utilisée...</p>
+                    <p>Sequalize est l&#39;ORM que j&#39;ai principalement utilisée...</p>
                   </div>
                 </div>
 
@@ -116,9 +121,10 @@ export default function Body() {
                     </h3>
                     <p>
                       {' '}
-                      Au niveau back-end, j'ai principalement utilisée ces trois technologies. Je sais mettre en place
-                      un serveur selon l'architecture Model Views Controllers, ainsi que des routes complexes. Je sais
-                      mettre en place un système de log admin/utilisateurs ou encore mettre en place une API REST.
+                      Au niveau back-end, j&#39;ai principalement utilisée ces trois technologies. Je sais mettre en
+                      place un serveur selon l&#39;architecture Model Views Controllers, ainsi que des routes complexes.
+                      Je sais mettre en place un système de log admin/utilisateurs ou encore mettre en place une API
+                      REST.
                     </p>
                   </div>
                 </div>
@@ -128,20 +134,15 @@ export default function Body() {
 
           <section className='projects section'>
             <div className='section-inner'>
-              <h2 className='heading'>Other Projects</h2>
+              <h2 className='heading'>Autres technologies</h2>
               <div className='content'>
                 <div className='item'>
                   <h3 className='title'>
-                    <a href='#'>Project Title Cras Lacus</a>
+                    <a href='#'></a>
                   </h3>
                   <p className='summary'>
                     Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem
                     ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.
-                  </p>
-                  <p>
-                    <a className='more-link' href='' target='_blank'>
-                      <i className='fa fa-external-link'></i> Find out more
-                    </a>
                   </p>
                 </div>
                 <div className='item'>
@@ -182,48 +183,44 @@ export default function Body() {
 
           <section className='experience section'>
             <div className='section-inner'>
-              <h2 className='heading'>Work Experience</h2>
+              <h2 className='heading'>Expériences professionnelles</h2>
               <div className='content'>
                 <div className='item'>
                   <h3 className='title'>
-                    Co-Founder & Lead Developer -{' '}
+                    Auxiliaire de vie à domicile{' '}
                     <span className='place'>
-                      <a href='#'>Startup Hub</a>
+                      <a href='http://savslille.blogs.apf.asso.fr/qui-sommes-nous/'>SAAD APF France Handicap </a>
+                      qui est devenu
+                      <a href='https://annuaire-entreprises.data.gouv.fr/entreprise/artaban-922824685'> Artaban</a>
                     </span>{' '}
                     <span className='year'>(2014 - Present)</span>
                   </h3>
                   <p>
-                    Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-                    viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien
-                    ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+                    J&#39;ai travaillé en tant qu&#39;auxiliaire de vie à domicile pour SAAD APF France Handicap, qui
+                    est devenu Artaban, pendant huit ans. Cette expérience a été très importante pour moi car j&#39;ai
+                    appris énormément de choses sur moi-même et sur les autres. En travaillant avec des personnes
+                    handicapées ou dépendantes, j&#39;ai compris l&#39;importance de l&#39;empathie, de la patience et
+                    de la bienveillance. J&#39;ai également développé ma capacité à travailler de manière autonome tout
+                    en étant responsable de la santé et du bien-être de mes patients. Cette expérience m&#39;a également
+                    permis de comprendre la complexité du système de santé et les enjeux liés au financement des
+                    services à domicile. En somme, cette expérience a été très enrichissante à la fois sur le plan
+                    personnel et professionnel, et elle m&#39;a aidé à devenir la personne que je suis aujourd&#39;hui.
                   </p>
                 </div>
                 <div className='item'>
                   <h3 className='title'>
-                    Software Engineer -{' '}
-                    <span className='place'>
-                      <a href='#'>Google</a>
-                    </span>{' '}
+                    Agent d&#39;entretien <span className='place'>pour Gom Propreté</span>{' '}
                     <span className='year'>(2013 - 2014)</span>
                   </h3>
                   <p>
-                    Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit
-                    pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
-                  </p>
-                </div>
-
-                <div className='item'>
-                  <h3 className='title'>
-                    Software Engineer -{' '}
-                    <span className='place'>
-                      <a href='#'>eBay</a>
-                    </span>{' '}
-                    <span className='year'>(2012 - 2013)</span>
-                  </h3>
-                  <p>
-                    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem
-                    neque sed ipsum.
+                    J&#39;ai travaillé en tant qu&#39;agent d&#39;entretien chez Gom Propreté pendant les vacances
+                    scolaires. Bien que ce fût mon premier emploi, cette expérience m&#39;a permis de développer de
+                    nombreuses compétences, notamment la capacité à travailler de manière autonome et à respecter des
+                    délais serrés. J&#39;ai également appris l&#39;importance de la rigueur et de la précision dans le
+                    travail. En travaillant pour une entreprise de nettoyage, j&#39;ai compris l&#39;importance du
+                    travail d&#39;équipe et j&#39;ai pu développer ma capacité à collaborer efficacement avec mes
+                    collègues pour atteindre nos objectifs communs. Cette expérience m&#39;a également permis de
+                    découvrir le monde professionnel et de comprendre comment une entreprise fonctionne au quotidien.
                   </p>
                 </div>
               </div>
@@ -231,7 +228,7 @@ export default function Body() {
           </section>
           <section className='github section'>
             <div className='section-inner'>
-              <h2 className='heading'>My GitHub</h2>
+              <h2 className='heading'>Mon GitHub</h2>
               <p>
                 Graphique d&#39;activité de Janvier 2023 au premier Mai 2023 <a href='' target='_blank'></a>
               </p>
@@ -249,7 +246,7 @@ export default function Body() {
         <div className='secondary col-md-4 col-sm-12 col-xs-12'>
           <aside className='info aside section'>
             <div className='section-inner'>
-              <h2 className='heading sr-only'>Basic Information</h2>
+              <h2 className='heading sr-only'>Informations de base</h2>
               <div className='content'>
                 <ul className='list-unstyled'>
                   <li>
@@ -259,12 +256,18 @@ export default function Body() {
                   <li>
                     <i className='fa fa-envelope-o'></i>
                     <span className='sr-only'></span>
-                    <a href='#'>quentin.buysschaert@gmail.com</a>
+                    <a
+                      href='https://mail.google.com/mail/?view=cm&fs=1&to=quentin.buysschaert@gmail.com&'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      quentin.buysschaert@gmail.com
+                    </a>
                   </li>
                   <li>
                     <i className='fa fa-phone'></i>
                     <span className='sr-only'></span>
-                    <a href='#'>06.18.51.63.56</a>
+                    <a href='tel:06.18.51.63.56'>06.18.51.63.56</a>
                   </li>
                 </ul>
               </div>
@@ -342,25 +345,19 @@ export default function Body() {
                 <div className='skillset'>
                   <div className='item'>
                     <h3 className='level-title'>
-                      Travail d'équipe
-                      <span
-                        className='level-label'
-                        data-toggle='tooltip'
-                        data-placement='left'
-                        data-animation='true'
-                        title='You can use the tooltip to add more info...'
-                      >
+                      Travail d&#39;équipe
+                      <span className='level-label' data-toggle='tooltip' data-placement='left' data-animation='true'>
                         Expert
                       </span>
                     </h3>
                     <div className='level-bar'>
-                      <div className='level-bar-inner' data-level='96%'></div>
+                      <div className='level-bar-inner' data-level='95%'></div>
                     </div>
                   </div>
 
                   <div className='item'>
                     <h3 className='level-title'>
-                      Javascript &amp; jQuery<span className='level-label'>Expert</span>
+                      Capacité d&#39;adaptation<span className='level-label'>Expert</span>
                     </h3>
                     <div className='level-bar'>
                       <div className='level-bar-inner' data-level='96%'></div>
@@ -369,16 +366,23 @@ export default function Body() {
 
                   <div className='item'>
                     <h3 className='level-title'>
-                      HTML5, CSS3, SASS &amp; LESS<span className='level-label'>Expert</span>
+                      Organisation<span className='level-label'>Expert</span>
                     </h3>
                     <div className='level-bar'>
                       <div className='level-bar-inner' data-level='96%'></div>
                     </div>
                   </div>
-
                   <div className='item'>
                     <h3 className='level-title'>
-                      Ruby on Rails<span className='level-label'>Pro</span>
+                      Autonomie<span className='level-label'>Pro</span>
+                    </h3>
+                    <div className='level-bar'>
+                      <div className='level-bar-inner' data-level='85%'></div>
+                    </div>
+                  </div>
+                  <div className='item'>
+                    <h3 className='level-title'>
+                      Rigueur<span className='level-label'>Pro</span>
                     </h3>
                     <div className='level-bar'>
                       <div className='level-bar-inner' data-level='85%'></div>
@@ -389,7 +393,7 @@ export default function Body() {
             </div>
           </aside>
 
-          <aside className='testimonials aside section'>
+          {/* <aside className='testimonials aside section'>
             <div className='section-inner'>
               <h2 className='heading'>Testimonials</h2>
               <div className='content'>
@@ -414,26 +418,28 @@ export default function Body() {
                 </p>
               </div>
             </div>
-          </aside>
+          </aside> */}
 
           <aside className='education aside section'>
             <div className='section-inner'>
-              <h2 className='heading'>Education</h2>
+              <h2 className='heading'>Scolarité</h2>
               <div className='content'>
                 <div className='item'>
                   <h3 className='title'>
-                    <i className='fa fa-graduation-cap'></i> MSc Psychology and Computer Science
+                    <i className='fa fa-graduation-cap'></i> Titre Professionnel Développeur web et web mobile (Bac +2)
                   </h3>
                   <h4 className='university'>
-                    University College London <span className='year'>(2011-2012)</span>
+                    {' '}
+                    École O&#39;clock <span className='year'> (Août 2023) </span>
                   </h4>
                 </div>
                 <div className='item'>
                   <h3 className='title'>
-                    <i className='fa fa-graduation-cap'></i> BSc Computer Science
+                    <i className='fa fa-graduation-cap'></i> Baccalauréat Profesionnel accompagnement soins et services
+                    à la personne
                   </h3>
                   <h4 className='university'>
-                    University of Bristol <span className='year'>(2008-2011)</span>
+                    Lycée Valentine Labbé - La Madeleine <span className='year'> (2011-2014) </span>
                   </h4>
                 </div>
               </div>
