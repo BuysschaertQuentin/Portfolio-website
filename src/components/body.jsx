@@ -78,7 +78,7 @@ export default function Body() {
                 <hr className='divider' />
                 <div className='item row'>
                   <a className='col-md-4 col-sm-4 col-xs-12' href='' target='_blank'>
-                    <img className='img-responsive project-image' src='./src/assets/images/html_css_js.jpg' />
+                    <img className='img-responsive project-image' src='/html_css_js.jpg' />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>HTML - CSS - Javascript</h3>
@@ -96,11 +96,7 @@ export default function Body() {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img
-                      className='img-responsive project-image'
-                      src='./src/assets/images/sequalize.png'
-                      alt='project name'
-                    />
+                    <img className='img-responsive project-image' src='/sequalize.png' alt='project name' />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>Sequalize et la Programmation Orientée Objet</h3>
