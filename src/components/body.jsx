@@ -448,9 +448,10 @@ export default function Body() {
           </aside>
           <aside className='list music aside section'>
             <div className='section-inner'>
-              <h2 className='heading'>Toujours plus a apprendre !</h2>
+              <h2 className='heading'>Apprendre toujours plus !</h2>
               <div className='content'>
                 <ul className='list-unstyled'>
+                  <li>J&#39;aimerais apprendre ces technos :</li>
                   <li>
                     <span className='my-icon'>
                       <FaPython /> Python
@@ -458,7 +459,7 @@ export default function Body() {
                   </li>
                   <li>
                     <span className='my-icon'>
-                      <FaJava /> Java
+                      <FaJava /> Java (En cours d&#39;apprentissage en autodidacte)
                     </span>
                   </li>
                   <li>
