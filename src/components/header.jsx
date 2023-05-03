@@ -1,6 +1,8 @@
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
 
+import photoProfil from '../assets/images/photo_profil.jpg';
+
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   'width': 62,
   'height': 34,
@@ -52,7 +54,7 @@ export default function Header() {
   return (
     <header className='header'>
       <div className='container'>
-        <img className='profile-image img-responsive pull-left' src='./src/assets/images/photo_profil.jpg' />
+        <img className='profile-image img-responsive pull-left' src={photoProfil} />
         <div className='profile-content pull-left'>
           <h1 className='name'>Buysschaert Quentin</h1>
           <h2 className='desc'>Développeur Fullstack</h2>
