@@ -77,8 +77,16 @@ a.btn-cta-secondary:hover,
 .text-highlight {
   color: #32383e;
 }
-.label-theme {
+.label-theme-everyday {
   background: #3aaa64;
+  font-size: 12px;
+}
+.label-theme-sometimes {
+  background: #3a99aa;
+  font-size: 12px;
+}
+.label-theme-little {
+  background: #d3881f;
   font-size: 12px;
 }
 a.dotted-link {

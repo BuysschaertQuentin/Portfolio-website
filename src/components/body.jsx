@@ -37,11 +37,7 @@ export default function Body() {
               <h2 className='heading'>Projets</h2>
               <div className='content'>
                 <div className='item featured text-center'>
-                  <h3 className='title'>
-                    <a href='' target='_blank'>
-                      Liberty Frip&#39;
-                    </a>
-                  </h3>
+                  <h3 className='title'>Liberty Frip&#39;</h3>
                   <p className='summary'>Une interface de gestion de caisse adaptée </p>
                   <div className='featured-image'>
                     <a href='https://buysschaertquentin.github.io/Liberty-Frip-/' target='_blank' rel='noreferrer'>
@@ -59,12 +55,21 @@ export default function Body() {
                   <div className='desc text-left'>
                     <p>
                       J&#39;ai été contacté par le chargé de développement des actions associatives (CD2A) de
-                      l&#39;association APF France Handicap 59/62 afin de concevoir un site web leur facilitant la
-                      gestion de la caisse de l&#39;événement Liberty Frip&#39;.
+                      l&#39;association{' '}
+                      <a
+                        className='link'
+                        href='https://www.linkedin.com/company/apf-france-handicap-nord-pas-de-calais/'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        APF France Handicap 59/62&nbsp;
+                      </a>
+                      afin de concevoir un site web leur facilitant la gestion de la caisse de l&#39;événement Liberty
+                      Frip&#39; qu&#39;il organise prochainement.
                       <p>
                         Cette application sera utilisée par une personne en situation de handicap qui tiendra la caisse
                         le jour de l&#39;événement. J&#39;ai tenu compte des demandes du CD2A et j&#39;ai réalisé ce
-                        projet sur 2 jours.{' '}
+                        projet sur 2 jours.
                       </p>
                     </p>
                   </div>
@@ -88,7 +93,12 @@ export default function Body() {
                 </div>
 
                 <div className='item row'>
-                  <a className='col-md-4 col-sm-4 col-xs-12' href='' target='_blank'>
+                  <a
+                    className='col-md-4 col-sm-4 col-xs-12'
+                    href='https://sequelize.org/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
                     <img
                       className='img-responsive project-image'
                       src='./src/assets/images/sequalize.png'
@@ -101,12 +111,22 @@ export default function Body() {
                         Sequalize et la Programmation Orientée Objet
                       </a>
                     </h3>
-                    <p>Sequalize est l&#39;ORM que j&#39;ai principalement utilisée...</p>
+                    <p>
+                      Sequalize est l&#39;ORM que j&#39;ai principalement utilisé pour interagir avec des bases de
+                      données relationnelles dans mes projets web. En utilisant Sequalize, j&#39;ai pu écrire des
+                      requêtes SQL en utilisant des objets et des méthodes orientées objet (JavaScript + ExpressJs), ce
+                      qui a rendu la manipulation des données beaucoup plus intuitive et facile à comprendre.
+                    </p>
                   </div>
                 </div>
 
                 <div className='item row'>
-                  <a className='col-md-4 col-sm-4 col-xs-12' href='' target='_blank'>
+                  <a
+                    className='col-md-4 col-sm-4 col-xs-12'
+                    href='https://expressjs.com/fr/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
                     <img
                       className='img-responsive project-image'
                       src='./src/assets/images/expressJs.png'
@@ -120,7 +140,6 @@ export default function Body() {
                       </a>
                     </h3>
                     <p>
-                      {' '}
                       Au niveau back-end, j&#39;ai principalement utilisée ces trois technologies. Je sais mettre en
                       place un serveur selon l&#39;architecture Model Views Controllers, ainsi que des routes complexes.
                       Je sais mettre en place un système de log admin/utilisateurs ou encore mettre en place une API
@@ -137,46 +156,77 @@ export default function Body() {
               <h2 className='heading'>Autres technologies</h2>
               <div className='content'>
                 <div className='item'>
-                  <h3 className='title'>
-                    <a href='#'></a>
-                  </h3>
+                  <h3 className='title'></h3>
                   <p className='summary'>
-                    Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem
-                    ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.
+                    Voici une liste non exhaustive des technologies que j&#39;ai appris lors de ma formation chez
+                    O&#39;clock.
                   </p>
                 </div>
                 <div className='item'>
                   <h3 className='title'>
-                    <a href='#'>Project Title Cras eget lacus</a> <span className='label label-theme'>Open Source</span>
+                    Git et Github&nbsp;&nbsp;
+                    <span className='label label-theme-everyday'>Utilisée quotidiennement</span>
                   </h3>
                   <p className='summary'>
-                    Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue
-                    consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla.{' '}
-                  </p>
-                  <p>
-                    <a className='more-link' href='' target='_blank'>
-                      <i className='fa fa-external-link'></i> View on GitHub
-                    </a>
+                    Je suis très à l&#39;aise avec Git et GitHub, et je suis familier avec les fonctionnalités courantes
+                    telles que les pull requests, les remotes et les branches. Je sais utiliser Git pour gérer les
+                    versions de mes projets et pour collaborer avec d&#39;autres développeurs. J&#39;ai régulièrement
+                    les pull requests pour proposer des modifications à des projets lors de ma formation et pour
+                    travailler sur des branches distinctes pour des fonctionnalités spécifiques. Je suis également
+                    capable de résoudre des conflits de fusion et de travailler avec des dépôts Git à distance en
+                    utilisant des commandes telles que git clone, git push et git fetch. Git est devenu mon meilleur
+                    ami.
                   </p>
                 </div>
                 <div className='item'>
                   <h3 className='title'>
-                    <a href='#'>Project Title Maecenas Ornare</a> <span className='label label-theme'>Open Source</span>
+                    Language SQL et PostgreSQL&nbsp;&nbsp;
+                    <span className='label label-theme-everyday'>Utilisée quotidiennement</span>
                   </h3>
                   <p className='summary'>
-                    Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.
-                  </p>
-                  <p>
-                    <a className='more-link' href='' target='_blank'>
-                      <i className='fa fa-external-link'></i> View on GitHub
-                    </a>
+                    Je suis familier avec le langage SQL ainsi que le système de gestion de base de données PostgreSQL.
+                    Je suis capable de concevoir et de créer des bases de données en utilisant PostgreSQL, en
+                    établissant des modèles de données tels que MLD (Modèle Logique de Données) et MCD (Modèle
+                    Conceptuel de Données). Je suis en mesure d&#39;établir des requêtes SQL pour extraire des données
+                    précises à partir d&#39;une base de données et de les utiliser pour répondre à des besoins
+                    spécifiques. J&#39;ai également une expérience dans l&#39;élaboration d&#39;users stories, qui sont
+                    des descriptions courtes et simples des fonctionnalités d&#39;un système, du point de vue de
+                    l&#39;utilisateur.
                   </p>
                 </div>
-
-                <a className='btn btn-cta-secondary' href='#'>
-                  More on CoderWall <i className='fa fa-chevron-right'></i>
-                </a>
+                <div className='item'>
+                  <h3 className='title'>
+                    API, conception et consommation au format REST&nbsp;&nbsp;
+                    <span className='label label-theme-sometimes'>Souvent utilisée</span>
+                  </h3>
+                  <p className='summary'>
+                    Je suis capable de créer et de consommer des API, en utilisant ExpressJs. Je peux définir des points
+                    d&#39;accès pour permettre à d&#39;autres applications d&#39;interagir avec mes services, et
+                    utiliser des bibliothèques et des outils pour appeler des API externes et récupérer les données dont
+                    j&#39;ai besoin.
+                  </p>
+                </div>
+                <div className='item'>
+                  <h3 className='title'>
+                    Strapi&nbsp;&nbsp;<span className='label label-theme-little'>Abordée</span>
+                  </h3>
+                  <p className='summary'>
+                    Lors de ma formation, j&#39;ai eu l&#39;occasion de pratiquer brièvement Strapi. J&#39;ai pu
+                    explorer les fonctionnalités et comprendre comment elle peut être utilisée pour développer des API.
+                    J&#39;ai également eu l&#39;occasion de créer quelques projets simples en utilisant Strapi, ce qui
+                    m&#39;a permis de me familiariser avec l&#39;interface et les outils de développement. Bien que je
+                    ne sois pas expert de cette plateforme, cette expérience m&#39;a donné un aperçu des possibilités
+                    qu&#39;un CMS peut offrire.
+                  </p>
+                </div>
+                <div className='item'>
+                  <h3 className='title'>
+                    Autres&nbsp;&nbsp;<span className='label label-theme-little'>Abordée</span>
+                  </h3>
+                  <ul className='summary'>
+                    <p>- JEST - TDD (Test-Driven Development) - Squitch - Regex - NoSQL - MongoDB</p>
+                  </ul>
+                </div>
               </div>
             </div>
           </section>
@@ -187,12 +237,36 @@ export default function Body() {
               <div className='content'>
                 <div className='item'>
                   <h3 className='title'>
-                    Auxiliaire de vie à domicile{' '}
+                    Etudiant chez
                     <span className='place'>
-                      <a href='http://savslille.blogs.apf.asso.fr/qui-sommes-nous/'>SAAD APF France Handicap </a>
-                      qui est devenu
-                      <a href='https://annuaire-entreprises.data.gouv.fr/entreprise/artaban-922824685'> Artaban</a>
-                    </span>{' '}
+                      <a href='https://oclock.io/'> O&#39;clock&nbsp;</a>
+                      en&nbsp;
+                      <a href='https://oclock.io/formations/developpeur-web-fullstack-javascript'>
+                        Formation Developpeur Fullstack JS&nbsp;
+                      </a>
+                    </span>
+                    <span className='year'>(Janvier 2023 - Present)</span>
+                  </h3>
+                  <p>
+                    J&#39;ai travaillé en tant qu&#39;auxiliaire de vie à domicile pour SAAD APF France Handicap, qui
+                    est devenu Artaban, pendant huit ans. Cette expérience a été très importante pour moi car j&#39;ai
+                    appris énormément de choses sur moi-même et sur les autres. En travaillant avec des personnes
+                    handicapées ou dépendantes, j&#39;ai compris l&#39;importance de l&#39;empathie, de la patience et
+                    de la bienveillance. J&#39;ai également développé ma capacité à travailler de manière autonome tout
+                    en étant responsable de la santé et du bien-être de mes patients. Cette expérience m&#39;a également
+                    permis de comprendre la complexité du système de santé et les enjeux liés au financement des
+                    services à domicile. En somme, cette expérience a été très enrichissante à la fois sur le plan
+                    personnel et professionnel, et elle m&#39;a aidé à devenir la personne que je suis aujourd&#39;hui.
+                  </p>
+                </div>
+                <div className='item'>
+                  <h3 className='title'>
+                    Auxiliaire de vie à domicile&nbsp;
+                    <span className='place'>
+                      <a href='http://savslille.blogs.apf.asso.fr/qui-sommes-nous/'>SAAD APF France Handicap</a>
+                      qui est devenu&nbsp;
+                      <a href='https://annuaire-entreprises.data.gouv.fr/entreprise/artaban-922824685'>Artaban</a>&nbsp;
+                    </span>
                     <span className='year'>(2014 - Present)</span>
                   </h3>
                   <p>
@@ -209,7 +283,7 @@ export default function Body() {
                 </div>
                 <div className='item'>
                   <h3 className='title'>
-                    Agent d&#39;entretien <span className='place'>pour Gom Propreté</span>{' '}
+                    Agent d&#39;entretien <span className='place'>pour Gom Propreté</span>&nbsp;
                     <span className='year'>(2013 - 2014)</span>
                   </h3>
                   <p>
@@ -229,9 +303,7 @@ export default function Body() {
           <section className='github section'>
             <div className='section-inner'>
               <h2 className='heading'>Mon GitHub</h2>
-              <p>
-                Graphique d&#39;activité de Janvier 2023 au premier Mai 2023 <a href='' target='_blank'></a>
-              </p>
+              <p>Graphique d&#39;activité de Janvier 2023 au premier Mai 2023</p>
               <p>
                 <img
                   className='img-responsive'
@@ -273,65 +345,6 @@ export default function Body() {
               </div>
             </div>
           </aside>
-
-          {/* <aside className='skills aside section'>
-            <div className='section-inner'>
-              <h2 className='heading'>Skills</h2>
-              <div className='content'>
-                <p className='intro'>
-                  Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can
-                  always provide a link to your Linkedin or Coderwall profile so people can get more info there.
-                </p>
-
-                <div className='skillset'>
-                  <div className='item'>
-                    <h3 className='level-title'>
-                      Python &amp; Django
-                      <span
-                        className='level-label'
-                        data-toggle='tooltip'
-                        data-placement='left'
-                        data-animation='true'
-                        title='You can use the tooltip to add more info...'
-                      >
-                        Expert
-                      </span>
-                    </h3>
-                    <div className='level-bar'>
-                      <div className='level-bar-inner' data-level='96%'></div>
-                    </div>
-                  </div>
-
-                  <div className='item'>
-                    <h3 className='level-title'>
-                      Javascript &amp; jQuery<span className='level-label'>Expert</span>
-                    </h3>
-                    <div className='level-bar'>
-                      <div className='level-bar-inner' data-level='96%'></div>
-                    </div>
-                  </div>
-
-                  <div className='item'>
-                    <h3 className='level-title'>
-                      HTML5, CSS3, SASS &amp; LESS<span className='level-label'>Expert</span>
-                    </h3>
-                    <div className='level-bar'>
-                      <div className='level-bar-inner' data-level='96%'></div>
-                    </div>
-                  </div>
-
-                  <div className='item'>
-                    <h3 className='level-title'>
-                      Ruby on Rails<span className='level-label'>Pro</span>
-                    </h3>
-                    <div className='level-bar'>
-                      <div className='level-bar-inner' data-level='85%'></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </aside> */}
 
           <aside className='skills aside section'>
             <div className='section-inner'>
@@ -393,33 +406,6 @@ export default function Body() {
             </div>
           </aside>
 
-          {/* <aside className='testimonials aside section'>
-            <div className='section-inner'>
-              <h2 className='heading'>Testimonials</h2>
-              <div className='content'>
-                <div className='item'>
-                  <blockquote className='quote'>
-                    <p>
-                      <i className='fa fa-quote-left'></i>James is an excellent software engineer and he is passionate
-                      about what he does. You can totally count on him to deliver your projects!
-                    </p>
-                  </blockquote>
-                  <p className='source'>
-                    <span className='name'>Tim Adams</span>
-                    <br />
-                    <span className='title'>Curabitur commodo</span>
-                  </p>
-                </div>
-
-                <p>
-                  <a className='more-link' href='#'>
-                    <i className='fa fa-external-link'></i> More on Linkedin
-                  </a>
-                </p>
-              </div>
-            </div>
-          </aside> */}
-
           <aside className='education aside section'>
             <div className='section-inner'>
               <h2 className='heading'>Scolarité</h2>
@@ -429,7 +415,6 @@ export default function Body() {
                     <i className='fa fa-graduation-cap'></i> Titre Professionnel Développeur web et web mobile (Bac +2)
                   </h3>
                   <h4 className='university'>
-                    {' '}
                     École O&#39;clock <span className='year'> (Août 2023) </span>
                   </h4>
                 </div>
@@ -456,7 +441,7 @@ export default function Body() {
                       <strong>Français : </strong>
                     </span>
                     <span className='level'>
-                      <i className='fa fa-star'></i> <i className='fa fa-star'></i> <i className='fa fa-star'></i>{' '}
+                      <i className='fa fa-star'></i> <i className='fa fa-star'></i> <i className='fa fa-star'></i>&nbsp;
                       <i className='fa fa-star'></i> <i className='fa fa-star'></i>
                     </span>
                   </li>
@@ -465,7 +450,7 @@ export default function Body() {
                       <strong>English : </strong>
                     </span>
                     <span className='level'>
-                      <i className='fa fa-star'></i> <i className='fa fa-star'></i> <i className='fa fa-star'></i>{' '}
+                      <i className='fa fa-star'></i> <i className='fa fa-star'></i> <i className='fa fa-star'></i>&nbsp;
                       <i className='fa fa-star-o'></i> <i className='fa fa-star-o'></i>
                     </span>
                   </li>
@@ -473,62 +458,6 @@ export default function Body() {
               </div>
             </div>
           </aside>
-
-          {/* <aside className='blog aside section'>
-            <div className='section-inner'>
-              <h2 className='heading'>Latest Blog Posts</h2>
-              <p>
-                You can use Sascha Depold&#39;s{' '}
-                <a href='' target='_blank'>
-                  jQuery RSS plugin
-                </a>{' '}
-                to pull in your blog post feeds.
-              </p>
-              <div id='rss-feeds' className='content'></div>
-            </div>
-          </aside> */}
-
-          {/* <aside className='list music aside section'>
-            <div className='section-inner'>
-              <h2 className='heading'>Favourite coding music</h2>
-              <div className='content'>
-                <ul className='list-unstyled'>
-                  <li>
-                    <i className='fa fa-headphones'></i> <a href='#'>Etiam hendrerit urna nunc</a>
-                  </li>
-                  <li>
-                    <i className='fa fa-headphones'></i> <a href='#'>Ut sollicitudin in mauris non auctor</a>
-                  </li>
-                  <li>
-                    <i className='fa fa-headphones'></i> <a href='#'>Etiam hendrerit urna nunc</a>
-                  </li>
-                  <li>
-                    <i className='fa fa-headphones'></i> <a href='#'>Duis et felis bibendum</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </aside> */}
-
-          {/* <aside className='list conferences aside section'>
-            <div className='section-inner'>
-              <h2 className='heading'>Conferences</h2>
-              <div className='content'>
-                <ul className='list-unstyled'>
-                  <li>
-                    <i className='fa fa-calendar'></i>{' '}
-                    <a href='' target='_blank'>
-                      WWDC 2014
-                    </a>{' '}
-                    (San Francisco)
-                  </li>
-                  <li>
-                    <i className='fa fa-calendar'></i> <a href=''>Hive</a> (Seattle)
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </aside> */}
         </div>
       </div>
     </div>
