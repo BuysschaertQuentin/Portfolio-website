@@ -7,7 +7,7 @@ export default function Body() {
         <div className='primary col-md-8 col-sm-12 col-xs-12'>
           <section className='about section'>
             <div className='section-inner'>
-              <h2 className='heading'>Qui suis-je ?</h2>
+              <h2 className='heading'>Qui suis-je ? </h2>
               <div className='content'>
                 <p>
                   Je suis Quentin Buysschaert, ancien auxiliaire de vie ayant accompagné des personnes en situation de
