@@ -45,7 +45,7 @@ export default function Body() {
                     <a href='https://buysschaertquentin.github.io/Liberty-Frip-/' target='_blank' rel='noreferrer'>
                       <img
                         className='img-responsive project-image'
-                        src='./src/assets/images/libertyFrip.png'
+                        src={import.meta.env.BASE_URL + 'assets/images/libertyFrip.png'}
                         alt='project name'
                       />
                     </a>
