@@ -1,3 +1,5 @@
+import { FaPython, FaJava, FaDocker, FaGitAlt } from 'react-icons/fa';
+
 export default function Body() {
   return (
     <div className='container sections-wrapper'>
@@ -8,7 +10,7 @@ export default function Body() {
               <h2 className='heading'>Qui suis-je ?</h2>
               <div className='content'>
                 <p>
-                  Je suis Buysschaert Quentin, ancien auxiliaire de vie ayant accompagné des personnes en situation de
+                  Je suis Quentin Buysschaert, ancien auxiliaire de vie ayant accompagné des personnes en situation de
                   handicap moteur et/ou psychique dans leur vie quotidienne pendant 8 ans. J&#39;ai développé une
                   passion pour le développement web et entrepris une formation à l&#39;école O&#39;clock pour acquérir
                   des compétences pour débuter dans le développement de sites web.
@@ -80,11 +82,7 @@ export default function Body() {
                     <img className='img-responsive project-image' src='./src/assets/images/html_css_js.jpg' />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
-                    <h3 className='title'>
-                      <a href='' target='_blank'>
-                        HTML - CSS - Javascript
-                      </a>
-                    </h3>
+                    <h3 className='title'>HTML - CSS - Javascript</h3>
                     <p>
                       La base de la base ! J&#39;ai passé une grande partie de ma formation à les apprendres. Je sais
                       construire une page HTML de A à Z, la stylisé avec du CSS et la dynamisez avec du Javascript.
@@ -106,11 +104,7 @@ export default function Body() {
                     />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
-                    <h3 className='title'>
-                      <a href='' target='_blank'>
-                        Sequalize et la Programmation Orientée Objet
-                      </a>
-                    </h3>
+                    <h3 className='title'>Sequalize et la Programmation Orientée Objet</h3>
                     <p>
                       Sequalize est l&#39;ORM que j&#39;ai principalement utilisé pour interagir avec des bases de
                       données relationnelles dans mes projets web. En utilisant Sequalize, j&#39;ai pu écrire des
@@ -134,11 +128,7 @@ export default function Body() {
                     />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
-                    <h3 className='title'>
-                      <a href='' target='_blank'>
-                        NodeJs, ExpressJs et EJS
-                      </a>
-                    </h3>
+                    <h3 className='title'>NodeJs, ExpressJs et EJS</h3>
                     <p>
                       Au niveau back-end, j&#39;ai principalement utilisée ces trois technologies. Je sais mettre en
                       place un serveur selon l&#39;architecture Model Views Controllers, ainsi que des routes complexes.
@@ -164,7 +154,7 @@ export default function Body() {
                 </div>
                 <div className='item'>
                   <h3 className='title'>
-                    Git et Github&nbsp;&nbsp;
+                    <FaGitAlt className='my-icon' /> Git et Github&nbsp;&nbsp;
                     <span className='label label-theme-everyday'>Utilisée quotidiennement</span>
                   </h3>
                   <p className='summary'>
@@ -248,22 +238,20 @@ export default function Body() {
                     <span className='year'>(Janvier 2023 - Present)</span>
                   </h3>
                   <p>
-                    J&#39;ai travaillé en tant qu&#39;auxiliaire de vie à domicile pour SAAD APF France Handicap, qui
-                    est devenu Artaban, pendant huit ans. Cette expérience a été très importante pour moi car j&#39;ai
-                    appris énormément de choses sur moi-même et sur les autres. En travaillant avec des personnes
-                    handicapées ou dépendantes, j&#39;ai compris l&#39;importance de l&#39;empathie, de la patience et
-                    de la bienveillance. J&#39;ai également développé ma capacité à travailler de manière autonome tout
-                    en étant responsable de la santé et du bien-être de mes patients. Cette expérience m&#39;a également
-                    permis de comprendre la complexité du système de santé et les enjeux liés au financement des
-                    services à domicile. En somme, cette expérience a été très enrichissante à la fois sur le plan
-                    personnel et professionnel, et elle m&#39;a aidé à devenir la personne que je suis aujourd&#39;hui.
+                    Depuis le 9 janvier 2023, je suis en formation chez O&#39;clock pour obtenir le Titre Professionnel
+                    de développeur web et web mobile. J&#39;ai pu suivre cette formation via un financement par
+                    transition pro.&#39; O&#39;clock m&#39;a permis d&#39;apprendre la plupart des technologies que je
+                    maîtrise aujourd&#39;hui. Je suis actuellement en formation jusqu&#39;au 28 juin 2023, et je me suis
+                    spécialisé en backend, je vais approfondir entre autres MongoDB / NoSQL et apprendre GraphQL ainsi
+                    que du &#39;Big Data&#39;. Je passerai l&#39;examen du Titre Professionnel vers mi-août pour valider
+                    mes compétences acquises.
                   </p>
                 </div>
                 <div className='item'>
                   <h3 className='title'>
                     Auxiliaire de vie à domicile&nbsp;
                     <span className='place'>
-                      <a href='http://savslille.blogs.apf.asso.fr/qui-sommes-nous/'>SAAD APF France Handicap</a>
+                      <a href='http://savslille.blogs.apf.asso.fr/qui-sommes-nous/'>SAAD APF France Handicap</a>&nbsp;
                       qui est devenu&nbsp;
                       <a href='https://annuaire-entreprises.data.gouv.fr/entreprise/artaban-922824685'>Artaban</a>&nbsp;
                     </span>
@@ -351,8 +339,8 @@ export default function Body() {
               <h2 className='heading'>Soft Skills</h2>
               <div className='content'>
                 <p className='intro'>
-                  Cette section vous énonce les soft skills que j&#39;ai acquis lors de mes 8 années d&#39;expérience
-                  professionnelle.
+                  Cette section vous énonce les principaux soft skills que j&#39;ai acquis lors de mes 8 années
+                  d&#39;expérience professionnelle.
                 </p>
 
                 <div className='skillset'>
@@ -364,7 +352,7 @@ export default function Body() {
                       </span>
                     </h3>
                     <div className='level-bar'>
-                      <div className='level-bar-inner' data-level='95%'></div>
+                      <div className='level-bar-inner' data-level='100%'></div>
                     </div>
                   </div>
 
@@ -452,6 +440,30 @@ export default function Body() {
                     <span className='level'>
                       <i className='fa fa-star'></i> <i className='fa fa-star'></i> <i className='fa fa-star'></i>&nbsp;
                       <i className='fa fa-star-o'></i> <i className='fa fa-star-o'></i>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+          <aside className='list music aside section'>
+            <div className='section-inner'>
+              <h2 className='heading'>Toujours plus a apprendre !</h2>
+              <div className='content'>
+                <ul className='list-unstyled'>
+                  <li>
+                    <span className='my-icon'>
+                      <FaPython /> Python
+                    </span>
+                  </li>
+                  <li>
+                    <span className='my-icon'>
+                      <FaJava /> Java
+                    </span>
+                  </li>
+                  <li>
+                    <span className='my-icon'>
+                      <FaDocker /> Docker
                     </span>
                   </li>
                 </ul>
