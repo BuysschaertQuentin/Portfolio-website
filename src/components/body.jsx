@@ -68,11 +68,10 @@ export default function Body() {
                       </a>
                       afin de concevoir un site web leur facilitant la gestion de la caisse de l&#39;événement Liberty
                       Frip&#39; qu&#39;il organise prochainement.
-                      <p>
-                        Cette application sera utilisée par une personne en situation de handicap qui tiendra la caisse
-                        le jour de l&#39;événement. J&#39;ai tenu compte des demandes du CD2A et j&#39;ai réalisé ce
-                        projet sur 2 jours.
-                      </p>
+                      <br />
+                      Cette application sera utilisée par une personne en situation de handicap qui tiendra la caisse le
+                      jour de l&#39;événement. J&#39;ai tenu compte des demandes du CD2A et j&#39;ai réalisé ce projet
+                      sur 2 jours.
                     </p>
                   </div>
                 </div>
