@@ -10,14 +10,14 @@ export default function Body() {
               <h2 className='heading'>Qui suis-je ? </h2>
               <div className='content'>
                 <p>
-                  Je suis Quentin Buysschaert, ancien auxiliaire de vie ayant accompagné des personnes en situation de
-                  handicap moteur et/ou psychique dans leur vie quotidienne pendant 8 ans. J&#39;ai développé une
-                  passion pour le développement web et entrepris une formation à l&#39;école O&#39;clock pour acquérir
-                  des compétences pour débuter dans le développement de sites web.
+                  Je me présente, Quentin Buysschaert, ancien auxiliaire de vie ayant accompagné des personnes en
+                  situation de handicap moteur et/ou psychique dans leur vie quotidienne pendant 8 ans. J&#39;ai
+                  développé une passion pour le développement web et entrepris une formation à l&#39;école O&#39;clock
+                  pour acquérir des compétences pour débuter dans le développement de sites web.
                   <br />
                   Grâce à cette formation, j&#39;ai pu développer des compétences solides. Je suis actuellement en train
-                  d&#39;explorer de nouvelles technologies telles que ReactJS et bientôt Java pour améliorer mes
-                  compétences en développement.
+                  d&#39;explorer de nouvelles technologies telles que React et Java pour améliorer mes compétences en
+                  développement.
                   <br />
                   Mon objectif est de continuer à élargir mes compétences pour pouvoir proposer des solutions de
                   développement innovantes et de haute qualité. Je suis convaincu que mon expérience en tant
@@ -28,7 +28,7 @@ export default function Body() {
                 <p>
                   Je vous invite à parcourir mon portfolio pour découvrir mes différents projets et à me contacter pour
                   toute question ou demande de collaboration. Je suis enthousiaste à l&#39;idée de travailler avec vous
-                  sur votre prochain projet de développement web.
+                  sur votre prochain projet.
                 </p>
               </div>
             </div>
@@ -43,24 +43,24 @@ export default function Body() {
                   <p className='summary'>Une interface de gestion de caisse adaptée </p>
                   <div className='featured-image'>
                     <a href='https://buysschaertquentin.github.io/Liberty-Frip-/' target='_blank' rel='noreferrer'>
-                      <img className='img-responsive project-image' src='./libertyFrip.png' alt='project name' />
+                      <img className='img-responsive project-image' src='./libertyFrip.png' />
                     </a>
                     <div className='ribbon'>
-                      <div className='text'>App</div>
+                      <div className='text'>JS</div>
                     </div>
                   </div>
 
                   <div className='desc text-left'>
                     <p>
                       J&#39;ai été contacté par le chargé de développement des actions associatives (CD2A) de
-                      l&#39;association{' '}
+                      l&#39;association
                       <a
                         className='link'
                         href='https://www.linkedin.com/company/apf-france-handicap-nord-pas-de-calais/'
                         target='_blank'
                         rel='noreferrer'
                       >
-                        APF France Handicap 59/62&nbsp;
+                        &nbsp;APF France Handicap 59/62&nbsp;
                       </a>
                       afin de concevoir un site web leur facilitant la gestion de la caisse de l&#39;événement Liberty
                       Frip&#39; qu&#39;il organise prochainement.
@@ -72,6 +72,32 @@ export default function Body() {
                   </div>
                 </div>
                 <hr className='divider' />
+                <div className='item featured text-center'>
+                  <h3 className='title'>Projet en cours</h3>
+                  <p className='summary'>Développement d&#39;une API REST avec Spring BOOT et Hibernate</p>
+                  <div className='featured-image'>
+                    <a href='https://www.baeldung.com/spring-boot-hibernate' target='_blank' rel='noreferrer'>
+                      <img className='img-responsive project-image' src='./spring_hibernate.png' />
+                    </a>
+                    <div className='ribbon'>
+                      <div className='text'>Java</div>
+                    </div>
+                  </div>
+
+                  <div className='desc text-left'>
+                    <p>
+                      Même si ces technologies ne sont pas enseignées dans ma formation, j&#39;ai consacré du temps et
+                      de l&#39;énergie à apprendre ces technologies sur mon temps libre auprès d&#39;un ami expert Java.
+                      Cette expérience m&#39;a permis de développer des compétences précieuses en matière de conception
+                      et de développement d&#39;applications robustes et performantes. Je suis fier de pouvoir intégrer
+                      ces technologies à mon portfolio et j&#39;ai hâte de continuer à apprendre et à me développer en
+                      tant que développeur.
+                    </p>
+                  </div>
+                </div>
+
+                <hr className='divider' />
+                <br />
                 <div className='item row'>
                   <a className='col-md-4 col-sm-4 col-xs-12' href='' target='_blank'>
                     <img className='img-responsive project-image' src='./html_css_js.jpg' />
@@ -79,12 +105,11 @@ export default function Body() {
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>HTML - CSS - Javascript</h3>
                     <p>
-                      La base de la base ! J&#39;ai passé une grande partie de ma formation à les apprendres. Je sais
-                      construire une page HTML de A à Z, la stylisé avec du CSS et la dynamisez avec du Javascript.
+                      La base de la base ! J&#39;ai passé une grande partie de ma formation à les apprendre. Je sais
+                      construire une page HTML de A à Z, la styliser avec du CSS et la dynamiser avec du Javascript.
                     </p>
                   </div>
                 </div>
-
                 <div className='item row'>
                   <a
                     className='col-md-4 col-sm-4 col-xs-12'
@@ -92,7 +117,7 @@ export default function Body() {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img className='img-responsive project-image' src='./sequalize.png' alt='project name' />
+                    <img className='img-responsive project-image' src='./sequalize.png' />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>Sequalize et la Programmation Orientée Objet</h3>
@@ -112,7 +137,7 @@ export default function Body() {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img className='img-responsive project-image' src='./expressJs.png' alt='project name' />
+                    <img className='img-responsive project-image' src='./expressJs.png' />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>NodeJs, ExpressJs et EJS</h3>
@@ -135,7 +160,7 @@ export default function Body() {
                 <div className='item'>
                   <h3 className='title'></h3>
                   <p className='summary'>
-                    Voici une liste non exhaustive des technologies que j&#39;ai appris lors de ma formation chez
+                    Voici une liste non-exhaustive des technologies que j&#39;ai appris lors de ma formation chez
                     O&#39;clock.
                   </p>
                 </div>
@@ -161,7 +186,7 @@ export default function Body() {
                     <span className='label label-theme-everyday'>Utilisée quotidiennement</span>
                   </h3>
                   <p className='summary'>
-                    Je suis familier avec le langage SQL ainsi que le système de gestion de base de données PostgreSQL.
+                    Je suis familier avec le langage SQL ainsi que le système de gestion de bases de données PostgreSQL.
                     Je suis capable de concevoir et de créer des bases de données en utilisant PostgreSQL, en
                     établissant des modèles de données tels que MLD (Modèle Logique de Données) et MCD (Modèle
                     Conceptuel de Données). Je suis en mesure d&#39;établir des requêtes SQL pour extraire des données
@@ -185,6 +210,21 @@ export default function Body() {
                 </div>
                 <div className='item'>
                   <h3 className='title'>
+                    Vite + React&nbsp;&nbsp;
+                    <span className='label label-theme-sometimes'>Souvent utilisée</span>
+                  </h3>
+                  <p className='summary'>
+                    React est une bibliothèque JavaScript populaire pour la création d&#39;interfaces utilisateur. Vite
+                    est un outil de build ultra-rapide qui peut être utilisé pour la création de projets basés sur
+                    JavaScript. En utilisant ces deux technologies ensemble, il est possible de créer des applications
+                    web performantes avec une expérience de développement fluide et efficace. J&#39;ai d&#39;ailleurs
+                    développé ce portfolio en utilisant ces technologies. L&#39;expérience acquise grâce à ce projet me
+                    permet de comprendre les enjeux techniques et de proposer des solutions innovantes pour des projets
+                    ambitieux.
+                  </p>
+                </div>
+                <div className='item'>
+                  <h3 className='title'>
                     Strapi&nbsp;&nbsp;<span className='label label-theme-little'>Abordée</span>
                   </h3>
                   <p className='summary'>
@@ -193,7 +233,7 @@ export default function Body() {
                     J&#39;ai également eu l&#39;occasion de créer quelques projets simples en utilisant Strapi, ce qui
                     m&#39;a permis de me familiariser avec l&#39;interface et les outils de développement. Bien que je
                     ne sois pas expert de cette plateforme, cette expérience m&#39;a donné un aperçu des possibilités
-                    qu&#39;un CMS peut offrire.
+                    qu&#39;un CMS peut offrir.
                   </p>
                 </div>
                 <div className='item'>
