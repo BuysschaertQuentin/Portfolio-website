@@ -160,7 +160,7 @@ export default function Body() {
                 <div className='item'>
                   <h3 className='title'></h3>
                   <p className='summary'>
-                    Voici une liste non-exhaustive des technologies que j&#39;ai appris lors de ma formation chez
+                    Voici une liste non-exhaustive des technologies que j&#39;ai apprises lors de ma formation chez
                     O&#39;clock.
                   </p>
                 </div>
