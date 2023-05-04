@@ -43,7 +43,7 @@ export default function Body() {
                   <p className='summary'>Une interface de gestion de caisse adaptée </p>
                   <div className='featured-image'>
                     <a href='https://buysschaertquentin.github.io/Liberty-Frip-/' target='_blank' rel='noreferrer'>
-                      <img className='img-responsive project-image' src='./libertyFrip.png' />
+                      <img className='img-responsive project-image' src='./liberty_Frip.png' />
                     </a>
                     <div className='ribbon'>
                       <div className='text'>JS</div>
@@ -318,7 +318,7 @@ export default function Body() {
           <section className='github section'>
             <div className='section-inner'>
               <h2 className='heading'>Mon GitHub</h2>
-              <p>Graphique d&#39;activité de Janvier 2023 au premier Mai 2023</p>
+              <p>Graphique d&#39;activité de Janvier 2023 au 5 Mai 2023</p>
               <p>
                 <img className='img-responsive' src='./github_contributions.png' alt='GitHub Contributions Chart' />
               </p>
