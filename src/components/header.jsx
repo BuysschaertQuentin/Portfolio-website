@@ -52,7 +52,7 @@ export default function Header() {
   return (
     <header className='header'>
       <div className='container'>
-        <img className='profile-image img-responsive pull-left' src='/photo_profil.jpg' alt='' />
+        <img className='profile-image img-responsive pull-left' src='photo_profil.jpg' alt='' />
         <div className='profile-content pull-left'>
           <h1 className='name'>Buysschaert Quentin</h1>
           <h2 className='desc'>Développeur Fullstack</h2>

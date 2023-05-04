@@ -43,7 +43,7 @@ export default function Body() {
                   <p className='summary'>Une interface de gestion de caisse adaptée </p>
                   <div className='featured-image'>
                     <a href='https://buysschaertquentin.github.io/Liberty-Frip-/' target='_blank' rel='noreferrer'>
-                      <img className='img-responsive project-image' src='/assets/libertyFrip.png' alt='project name' />
+                      <img className='img-responsive project-image' src='/libertyFrip.png' alt='project name' />
                     </a>
                     <div className='ribbon'>
                       <div className='text'>App</div>
@@ -74,7 +74,7 @@ export default function Body() {
                 <hr className='divider' />
                 <div className='item row'>
                   <a className='col-md-4 col-sm-4 col-xs-12' href='' target='_blank'>
-                    <img className='img-responsive project-image' src='/assets/html_css_js.jpg' />
+                    <img className='img-responsive project-image' src='./html_css_js.jpg' />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>HTML - CSS - Javascript</h3>
