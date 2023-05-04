@@ -43,7 +43,7 @@ export default function Body() {
                   <p className='summary'>Une interface de gestion de caisse adaptée </p>
                   <div className='featured-image'>
                     <a href='https://buysschaertquentin.github.io/Liberty-Frip-/' target='_blank' rel='noreferrer'>
-                      <img className='img-responsive project-image' src='/libertyFrip.png' alt='project name' />
+                      <img className='img-responsive project-image' src='./libertyFrip.png' alt='project name' />
                     </a>
                     <div className='ribbon'>
                       <div className='text'>App</div>
@@ -92,7 +92,7 @@ export default function Body() {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img className='img-responsive project-image' src='/assets/sequalize.png' alt='project name' />
+                    <img className='img-responsive project-image' src='./sequalize.png' alt='project name' />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>Sequalize et la Programmation Orientée Objet</h3>
@@ -112,7 +112,7 @@ export default function Body() {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img className='img-responsive project-image' src='/assets/expressJs.png' alt='project name' />
+                    <img className='img-responsive project-image' src='./expressJs.png' alt='project name' />
                   </a>
                   <div className='desc col-md-8 col-sm-8 col-xs-12'>
                     <h3 className='title'>NodeJs, ExpressJs et EJS</h3>
@@ -280,11 +280,7 @@ export default function Body() {
               <h2 className='heading'>Mon GitHub</h2>
               <p>Graphique d&#39;activité de Janvier 2023 au premier Mai 2023</p>
               <p>
-                <img
-                  className='img-responsive'
-                  src='/assets/github_contributions.png'
-                  alt='GitHub Contributions Chart'
-                />
+                <img className='img-responsive' src='./github_contributions.png' alt='GitHub Contributions Chart' />
               </p>
               <div id='ghfeed' className='ghfeed'></div>
             </div>
