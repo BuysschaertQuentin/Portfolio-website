@@ -540,3 +540,7 @@ a.dotted-link:hover {
     width: 1360px;
   }
 }
+
+.tooltiptest:hover {
+  cursor: pointer;
+}

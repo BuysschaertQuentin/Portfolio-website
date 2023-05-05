@@ -1,3 +1,6 @@
+import pdfFile from './Quentin_Buysschaert_CV.pdf';
+import Tooltip from '@mui/material/Tooltip';
+
 // import { styled } from '@mui/material/styles';
 // import Switch from '@mui/material/Switch';
 
@@ -49,6 +52,14 @@
 // }));
 
 export default function Header() {
+  const handleClick = () => {
+    const link = document.createElement('a');
+    link.href = pdfFile;
+    link.download = 'Quentin_Buysschaert_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <header className='header'>
       <div className='container'>
@@ -59,12 +70,23 @@ export default function Header() {
           <ul className='social list-inline'>
             <li>
               <a href='https://www.linkedin.com/in/quentin-buysschaert-1b3573218/' target='_blank' rel='noreferrer'>
-                <i className='fa fa-linkedin'></i>
+                <Tooltip title='Accéder à mon LINKEDIN'>
+                  <i className='fa fa-linkedin'></i>
+                </Tooltip>
               </a>
             </li>
             <li>
               <a href='https://github.com/BuysschaertQuentin' target='_blank' rel='noreferrer'>
-                <i className='fa fa-github-alt'></i>
+                <Tooltip title='Accéder à mon GITHUB'>
+                  <i className='fa fa-github-alt'></i>
+                </Tooltip>
+              </a>
+            </li>
+            <li>
+              <a className='tooltiptest'>
+                <Tooltip title='Télécharger CV'>
+                  <i className='fa fa-download' onClick={handleClick} alt='Télécharger CV'></i>
+                </Tooltip>
               </a>
             </li>
           </ul>
