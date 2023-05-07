@@ -554,11 +554,19 @@ a.dotted-link:hover {
 
 /* Styles pour le mode sombre */
 .dark-mode {
-  background-color: #333;
+  background-color: #2e4053;
   color: #fff;
 }
 
 /* Styles pour les liens en mode sombre */
 .dark-mode a {
   color: #c0c0c0;
+}
+
+.dark-mode p {
+  color: #a93232;
+}
+
+.dark-mode header {
+  background-color: grey;
 }
