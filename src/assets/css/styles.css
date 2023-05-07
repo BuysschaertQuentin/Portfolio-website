@@ -544,3 +544,21 @@ a.dotted-link:hover {
 .tooltiptest:hover {
   cursor: pointer;
 }
+
+/* Switch light ans dark mode */
+
+.custom-switch-class {
+  position: relative;
+  left: 55%;
+}
+
+/* Styles pour le mode sombre */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Styles pour les liens en mode sombre */
+.dark-mode a {
+  color: #c0c0c0;
+}

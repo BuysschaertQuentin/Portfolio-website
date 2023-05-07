@@ -1,55 +1,69 @@
 import pdfFile from './Quentin_Buysschaert_CV.pdf';
 import Tooltip from '@mui/material/Tooltip';
+import { styled } from '@mui/material/styles';
+import Switch from '@mui/material/Switch';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+// import CssBaseline from '@mui/material/CssBaseline';
+import { useState } from 'react';
 
-// import { styled } from '@mui/material/styles';
-// import Switch from '@mui/material/Switch';
+const MaterialUISwitch = styled(Switch)(({ theme }) => ({
+  'width': 62,
+  'height': 34,
+  'padding': 7,
+  '& .MuiSwitch-switchBase': {
+    'margin': 1,
+    'padding': 0,
+    'transform': 'translateX(6px)',
+    '&.Mui-checked': {
+      'color': '#fff',
+      'transform': 'translateX(22px)',
+      '& .MuiSwitch-thumb:before': {
+        backgroundImage: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 20 20"><path fill="${encodeURIComponent(
+          '#fff',
+        )}" d="M4.2 2.5l-.7 1.8-1.8.7 1.8.7.7 1.8.6-1.8L6.7 5l-1.9-.7-.6-1.8zm15 8.3a6.7 6.7 0 11-6.6-6.6 5.8 5.8 0 006.6 6.6z"/></svg>')`,
+      },
+      '& + .MuiSwitch-track': {
+        opacity: 1,
+        backgroundColor: theme.palette.mode === 'dark' ? '#8796A5' : '#aab4be',
+      },
+    },
+  },
+  '& .MuiSwitch-thumb': {
+    'backgroundColor': theme.palette.mode === 'dark' ? '#003892' : '#001e3c',
+    'width': 32,
+    'height': 32,
+    '&:before': {
+      content: "''",
+      position: 'absolute',
+      width: '100%',
+      height: '100%',
+      left: 0,
+      top: 0,
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+      backgroundImage: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 20 20"><path fill="${encodeURIComponent(
+        '#fff',
+      )}" d="M9.305 1.667V3.75h1.389V1.667h-1.39zm-4.707 1.95l-.982.982L5.09 6.072l.982-.982-1.473-1.473zm10.802 0L13.927 5.09l.982.982 1.473-1.473-.982-.982zM10 5.139a4.872 4.872 0 00-4.862 4.86A4.872 4.872 0 0010 14.862 4.872 4.872 0 0014.86 10 4.872 4.872 0 0010 5.139zm0 1.389A3.462 3.462 0 0113.471 10a3.462 3.462 0 01-3.473 3.472A3.462 3.462 0 016.527 10 3.462 3.462 0 0110 6.528zM1.665 9.305v1.39h2.083v-1.39H1.666zm14.583 0v1.39h2.084v-1.39h-2.084zM5.09 13.928L3.616 15.4l.982.982 1.473-1.473-.982-.982zm9.82 0l-.982.982 1.473 1.473.982-.982-1.473-1.473zM9.305 16.25v2.083h1.389V16.25h-1.39z"/></svg>')`,
+    },
+  },
+  '& .MuiSwitch-track': {
+    opacity: 1,
+    backgroundColor: theme.palette.mode === 'dark' ? '#8796A5' : '#aab4be',
+    borderRadius: 20 / 2,
+  },
+}));
 
-// const MaterialUISwitch = styled(Switch)(({ theme }) => ({
-//   'width': 62,
-//   'height': 34,
-//   'padding': 7,
-//   '& .MuiSwitch-switchBase': {
-//     'margin': 1,
-//     'padding': 0,
-//     'transform': 'translateX(6px)',
-//     '&.Mui-checked': {
-//       'color': '#fff',
-//       'transform': 'translateX(22px)',
-//       '& .MuiSwitch-thumb:before': {
-//         backgroundImage: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 20 20"><path fill="${encodeURIComponent(
-//           '#fff',
-//         )}" d="M4.2 2.5l-.7 1.8-1.8.7 1.8.7.7 1.8.6-1.8L6.7 5l-1.9-.7-.6-1.8zm15 8.3a6.7 6.7 0 11-6.6-6.6 5.8 5.8 0 006.6 6.6z"/></svg>')`,
-//       },
-//       '& + .MuiSwitch-track': {
-//         opacity: 1,
-//         backgroundColor: theme.palette.mode === 'dark' ? '#8796A5' : '#aab4be',
-//       },
-//     },
-//   },
-//   '& .MuiSwitch-thumb': {
-//     'backgroundColor': theme.palette.mode === 'dark' ? '#003892' : '#001e3c',
-//     'width': 32,
-//     'height': 32,
-//     '&:before': {
-//       content: "''",
-//       position: 'absolute',
-//       width: '100%',
-//       height: '100%',
-//       left: 0,
-//       top: 0,
-//       backgroundRepeat: 'no-repeat',
-//       backgroundPosition: 'center',
-//       backgroundImage: `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 20 20"><path fill="${encodeURIComponent(
-//         '#fff',
-//       )}" d="M9.305 1.667V3.75h1.389V1.667h-1.39zm-4.707 1.95l-.982.982L5.09 6.072l.982-.982-1.473-1.473zm10.802 0L13.927 5.09l.982.982 1.473-1.473-.982-.982zM10 5.139a4.872 4.872 0 00-4.862 4.86A4.872 4.872 0 0010 14.862 4.872 4.872 0 0014.86 10 4.872 4.872 0 0010 5.139zm0 1.389A3.462 3.462 0 0113.471 10a3.462 3.462 0 01-3.473 3.472A3.462 3.462 0 016.527 10 3.462 3.462 0 0110 6.528zM1.665 9.305v1.39h2.083v-1.39H1.666zm14.583 0v1.39h2.084v-1.39h-2.084zM5.09 13.928L3.616 15.4l.982.982 1.473-1.473-.982-.982zm9.82 0l-.982.982 1.473 1.473.982-.982-1.473-1.473zM9.305 16.25v2.083h1.389V16.25h-1.39z"/></svg>')`,
-//     },
-//   },
-//   '& .MuiSwitch-track': {
-//     opacity: 1,
-//     backgroundColor: theme.palette.mode === 'dark' ? '#8796A5' : '#aab4be',
-//     borderRadius: 20 / 2,
-//   },
-// }));
+const lightTheme = createTheme({
+  palette: {
+    mode: 'light',
+  },
+});
+
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 
 export default function Header() {
   const handleClick = () => {
@@ -60,6 +74,14 @@ export default function Header() {
     link.click();
     document.body.removeChild(link);
   };
+
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const handleSwitchMode = () => {
+    setIsDarkMode(!isDarkMode);
+    document.body.classList.toggle('dark-mode');
+  };
+
   return (
     <header className='header'>
       <div className='container'>
@@ -91,9 +113,14 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        {/* <div className='custom-switch-class'>
-          <MaterialUISwitch />
-        </div> */}
+        <div className='custom-switch-class'>
+          <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
+            {/* <CssBaseline /> */}
+            <main>
+              <MaterialUISwitch checked={isDarkMode} onChange={handleSwitchMode} />
+            </main>
+          </ThemeProvider>
+        </div>
         <a
           className='btn btn-cta-primary pull-right'
           href='https://mail.google.com/mail/?view=cm&fs=1&to=quentin.buysschaert@gmail.com&'
@@ -106,3 +133,24 @@ export default function Header() {
     </header>
   );
 }
+
+// CssBaseline est un composant de la bibliothèque MUI (Material-UI) pour React qui permet de réinitialiser
+//  les styles CSS de base dans votre application.
+
+// Lorsque vous utilisez CssBaseline, il applique des styles CSS de base pour les éléments HTML couramment
+//  utilisés tels que html, body, h1, p, etc. Ces styles visent à normaliser le comportement des éléments HTML
+//   entre différents navigateurs et à fournir une base cohérente pour les styles de votre application.
+
+// Par exemple, si vous utilisez CssBaseline dans votre application, vous pouvez être sûr que le padding et le
+//  margin par défaut de la page seront réinitialisés, ce qui peut être important pour garantir la cohérence
+//  visuelle de votre application.
+
+// CssBaseline est souvent utilisé en conjonction avec le composant ThemeProvider de MUI, qui permet de définir
+//  un thème global pour votre application, qui peut inclure des styles pour les couleurs, la typographie, les
+//  tailles, etc. En combinant ThemeProvider et CssBaseline, vous pouvez créer une base cohérente pour les styles
+//   de votre application tout en vous assurant que les styles de base sont réinitialisés pour un comportement
+//    cohérent entre les navigateurs.
+
+// En résumé, CssBaseline est un composant utile pour garantir une base cohérente pour les styles de votre
+//  application en réinitialisant les styles CSS de base et en vous permettant de créer des styles à partir
+//  d'une base cohérente.
