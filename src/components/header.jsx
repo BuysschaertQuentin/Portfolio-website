@@ -3,7 +3,6 @@ import Tooltip from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-// import CssBaseline from '@mui/material/CssBaseline';
 import { useState } from 'react';
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
@@ -66,6 +65,13 @@ const darkTheme = createTheme({
 });
 
 export default function Header() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const handleSwitchMode = () => {
+    setIsDarkMode(!isDarkMode);
+    document.body.classList.toggle('dark-mode');
+  };
+
   const handleClick = () => {
     const link = document.createElement('a');
     link.href = pdfFile;
@@ -73,13 +79,6 @@ export default function Header() {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  };
-
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  const handleSwitchMode = () => {
-    setIsDarkMode(!isDarkMode);
-    document.body.classList.toggle('dark-mode');
   };
 
   return (
@@ -115,7 +114,6 @@ export default function Header() {
         </div>
         <div className='custom-switch-class'>
           <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
-            {/* <CssBaseline /> */}
             <main>
               <MaterialUISwitch checked={isDarkMode} onChange={handleSwitchMode} />
             </main>
@@ -133,24 +131,3 @@ export default function Header() {
     </header>
   );
 }
-
-// CssBaseline est un composant de la bibliothèque MUI (Material-UI) pour React qui permet de réinitialiser
-//  les styles CSS de base dans votre application.
-
-// Lorsque vous utilisez CssBaseline, il applique des styles CSS de base pour les éléments HTML couramment
-//  utilisés tels que html, body, h1, p, etc. Ces styles visent à normaliser le comportement des éléments HTML
-//   entre différents navigateurs et à fournir une base cohérente pour les styles de votre application.
-
-// Par exemple, si vous utilisez CssBaseline dans votre application, vous pouvez être sûr que le padding et le
-//  margin par défaut de la page seront réinitialisés, ce qui peut être important pour garantir la cohérence
-//  visuelle de votre application.
-
-// CssBaseline est souvent utilisé en conjonction avec le composant ThemeProvider de MUI, qui permet de définir
-//  un thème global pour votre application, qui peut inclure des styles pour les couleurs, la typographie, les
-//  tailles, etc. En combinant ThemeProvider et CssBaseline, vous pouvez créer une base cohérente pour les styles
-//   de votre application tout en vous assurant que les styles de base sont réinitialisés pour un comportement
-//    cohérent entre les navigateurs.
-
-// En résumé, CssBaseline est un composant utile pour garantir une base cohérente pour les styles de votre
-//  application en réinitialisant les styles CSS de base et en vous permettant de créer des styles à partir
-//  d'une base cohérente.

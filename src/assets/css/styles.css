@@ -554,19 +554,23 @@ a.dotted-link:hover {
 
 /* Styles pour le mode sombre */
 .dark-mode {
-  background-color: #2e4053;
+  background-color: #1f2c39;
   color: #fff;
 }
 
 /* Styles pour les liens en mode sombre */
-.dark-mode a {
-  color: #c0c0c0;
+.dark-mode .section .section-inner {
+  background-color: #2d4964;
 }
 
-.dark-mode p {
-  color: #a93232;
+/* Appliquez la couleur blanche uniquement en mode dark */
+.dark-mode :not(.mode-light) .header .profile-content .name,
+.dark-mode :not(.mode-light) .header .profile-content .desc,
+.dark-mode :not(.mode-light) .section-inner .heading,
+.dark-mode :not(.mode-light) p {
+  color: #ffffff;
 }
 
 .dark-mode header {
-  background-color: grey;
+  background-color: #2d4964;
 }
