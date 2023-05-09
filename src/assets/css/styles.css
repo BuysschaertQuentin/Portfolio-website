@@ -535,9 +535,9 @@ a.dotted-link:hover {
   }
 }
 
-@media (min-width: 1400px) {
+@media screen and (max-width: 1400px) {
   .container {
-    width: 1360px;
+    max-width: 100%;
   }
 }
 
@@ -548,8 +548,8 @@ a.dotted-link:hover {
 /* Switch light ans dark mode */
 
 .custom-switch-class {
-  position: relative;
-  left: 55%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Styles pour le mode sombre */
