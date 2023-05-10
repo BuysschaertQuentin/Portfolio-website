@@ -1,4 +1,4 @@
-import pdfFile from './Quentin_Buysschaert_CV.pdf';
+import pdfFile from './Quentin Buysschaert_CV_mai_2023.pdf';
 import Tooltip from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
@@ -75,7 +75,7 @@ export default function Header() {
   const handleClick = () => {
     const link = document.createElement('a');
     link.href = pdfFile;
-    link.download = 'Quentin_Buysschaert_CV.pdf';
+    link.download = 'Quentin Buysschaert_CV_mai_2023.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
