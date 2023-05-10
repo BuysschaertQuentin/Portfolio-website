@@ -241,7 +241,7 @@ export default function Body() {
                     Autres&nbsp;&nbsp;<span className='label label-theme-little'>Abordée</span>
                   </h3>
                   <ul className='summary'>
-                    <p>- JEST - TDD (Test-Driven Development) - Squitch - Regex - NoSQL - MongoDB</p>
+                    <p>- JEST - TDD (Test-Driven Development) - Squitch - Regex - NoSQL - MongoDB et bientôt GraphQL</p>
                   </ul>
                 </div>
               </div>
