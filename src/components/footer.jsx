@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className='footer'>
       <div className='container text-center'>
-        <p>Ce Portfolio est amenée à évolué, n&#39;hésitez pas a revenir de temps en temps </p>
+        <p>Ce Portfolio sera mis à jour régulièrement, n&#39;hésitez pas a revenir de temps en temps</p>
         <small className='copyright'>
           Modifié par Quentin Buysschaert en utilisant un contenu créé et mis à disposition gratuitement par Xiaoying
           Riley, pour les developpeurs, qui est sous la licence :{' '}
