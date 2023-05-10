@@ -558,12 +558,10 @@ a.dotted-link:hover {
   color: #fff;
 }
 
-/* Styles pour les liens en mode sombre */
 .dark-mode .section .section-inner {
   background-color: #2d4964;
 }
 
-/* Appliquez la couleur blanche uniquement en mode dark */
 .dark-mode :not(.mode-light) .header .profile-content .name,
 .dark-mode :not(.mode-light) .header .profile-content .desc,
 .dark-mode :not(.mode-light) .section-inner .heading,
