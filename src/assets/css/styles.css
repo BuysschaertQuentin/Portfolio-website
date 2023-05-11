@@ -567,6 +567,8 @@ a.dotted-link:hover {
 .dark-mode :not(.mode-light) .section-inner .title,
 .dark-mode :not(.mode-light) .section-inner .summary,
 .dark-mode :not(.mode-light) .level-title,
+.dark-mode :not(.mode-light) .section-inner .place,
+.dark-mode :not(.mode-light) .section-inner .place a,
 .dark-mode :not(.mode-light) p {
   color: #ffffff;
 }
