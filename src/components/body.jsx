@@ -322,7 +322,7 @@ export default function Body() {
               <p>
                 <img className='img-responsive' src='./github_contributions.png' alt='GitHub Contributions Chart' />
               </p>
-              <div id='ghfeed' className='ghfeed'></div>
+              {/* <div id='ghfeed' className='ghfeed'></div> */}
             </div>
           </section>
         </div>

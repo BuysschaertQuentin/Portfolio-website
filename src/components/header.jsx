@@ -1,4 +1,4 @@
-import pdfFile from './Quentin Buysschaert_CV_mai_2023.pdf';
+import pdfFile from './Quentin Buysschaert_CV_juillet_2023.pdf';
 import Tooltip from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
@@ -75,7 +75,7 @@ export default function Header() {
   const handleClick = () => {
     const link = document.createElement('a');
     link.href = pdfFile;
-    link.download = 'Quentin Buysschaert_CV_mai_2023.pdf';
+    link.download = 'Quentin Buysschaert_CV_juillet_2023.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -106,7 +106,7 @@ export default function Header() {
             <li>
               <a className='tooltiptest'>
                 <Tooltip title='Télécharger CV'>
-                  <i className='fa fa-download' onClick={handleClick} alt='Télécharger CV'></i>
+                  <i className='fa fa-download' style={{ fontSize: 'xx-larger' }}onClick={handleClick} alt='Télécharger CV'></i>
                 </Tooltip>
               </a>
             </li>
